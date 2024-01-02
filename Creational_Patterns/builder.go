@@ -1,4 +1,4 @@
-package builder
+package main
 
 import "fmt"
 
@@ -46,7 +46,7 @@ func (d *Director) Construct() Product {
     return d.builder.GetProduct()
 }
 
-func Start() {
+func Builder() {
     builder := &ConcreteBuilder{}
 
     director := &Director{builder}
