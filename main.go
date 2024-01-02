@@ -7,5 +7,6 @@ import (
 
 func main() {
 	fmt.Println("LLD and Design Patterns in GoLang")
-	builder.Start()
+	creational.Builder()
+	creational.Factory()
 }
