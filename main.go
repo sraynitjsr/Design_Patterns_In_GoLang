@@ -10,4 +10,5 @@ func main() {
 	creational.Builder()
 	creational.Factory()
 	creational.Abstract()
+	singleton.Singleton()
 }
