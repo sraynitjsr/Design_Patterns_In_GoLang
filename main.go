@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"github.com/sraynitjsr/Creational_Patterns"
 	"github.com/sraynitjsr/Behaviroal_Patterns"
+	"github.com/sraynitjsr/Structural_Patterns"
 )
 
 func main() {
@@ -15,4 +16,6 @@ func main() {
 	creational.Singleton()
 
 	behaviroal.Observer()
+
+	structural.Composite()
 }
