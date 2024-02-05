@@ -16,6 +16,7 @@ func main() {
 	creational.Singleton()
 
 	behaviroal.Observer()
+	behaviroal.Strategy()
 
 	structural.Composite()
 }
